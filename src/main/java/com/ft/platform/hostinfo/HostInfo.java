@@ -11,10 +11,10 @@ public class HostInfo {
 	private String environment;
 	
     @JsonProperty
-    private String hostName;
+    private HostName hostName;
 
     @JsonProperty
-    private String hostLocation;
+    private HostLocation hostLocation;
 
     @JsonProperty
     private String ipAddress;
@@ -30,11 +30,11 @@ public class HostInfo {
 		return environment;
 	}
 
-	public String getHostName() {
+	public HostName getHostName() {
 		return hostName;
 	}
 
-	public String getHostLocation() {
+	public HostLocation getHostLocation() {
 		return hostLocation;
 	}
 
