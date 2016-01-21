@@ -9,7 +9,7 @@
 
     <groupId>com.ft</groupId>
     <artifactId>ft-host-info</artifactId>
-    <version>0.0.4</version>
+    <version>0.0.5-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>FT Host Info</name>
@@ -46,7 +46,7 @@
         <url>http://git.svc.ft.com/projects/OM/repos/ft-host-info/browse</url>
         <connection>scm:git:ssh://git@git.svc.ft.com:7999/om/ft-host-info.git</connection>
         <developerConnection>scm:git:ssh://git@git.svc.ft.com:7999/om/ft-host-info.git</developerConnection>
-      <tag>ft-host-info-0.0.4</tag>
+      <tag>HEAD</tag>
   </scm>
 
     <build>
